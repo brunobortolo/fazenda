@@ -65,7 +65,7 @@ const Home: NextPage = () => {
       </Head>
       <div className={styles['container']}>
         <h1 className={styles['titulo']}>Fazenda da Titi</h1>
-        {timerComponents.length ? timerComponents : <span>Time's up!</span>}
+        {timerComponents.length ? timerComponents : <span>Time`&apos;`s up!</span>}
         <img src='/convite.png' alt='convite' className={styles['convite']}></img>
       </div>
     </>
