@@ -4,18 +4,21 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-interface Time {
+type Time = {
   dias?: number;
   horas?: number;
   minutos?: number;
   segundos?: number;
+  [key: string]: number | undefined;
 }
 
 const Home: NextPage = () => {
   const calculateTimeLeft = () => {
     let year = new Date().getFullYear();
     const difference = +new Date(year, 3, 8, 12, 0, 0) - +new Date();
-    let timeLeft = {};
+    let timeLeft = {
+      
+    };
 
     if (difference > 0) {
       timeLeft = {
@@ -39,7 +42,7 @@ const Home: NextPage = () => {
     }, 1000);
   });
 
-  const timerComponents = [];
+  const timerComponents = [<></>];
 
   Object.keys(timeLeft).forEach((interval) => {
     if (!timeLeft[interval]) {
