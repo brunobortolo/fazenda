@@ -1,9 +1,7 @@
 import { useEffect, useState } from 'react'
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Particles from 'react-tsparticles'
 import styles from '../styles/Home.module.css'
-import Animation from '../utils/animation';
 
 type Time = {
   dias?: number;
@@ -16,7 +14,7 @@ type Time = {
 const Home: NextPage = () => {
   const calculateTimeLeft = () => {
     let year = new Date().getFullYear();
-    const difference = +new Date(year, 3, 8, 12, 0, 0) - +new Date();
+    const difference = +new Date(year, 3, 8) - +new Date();
     let timeLeft = {
       
     };
