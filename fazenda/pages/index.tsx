@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
 import type { NextPage } from 'next'
-import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
 type Time = {
@@ -8,17 +7,13 @@ type Time = {
   horas?: number;
   minutos?: number;
   segundos?: number;
-  [key: string]: number | undefined;
 }
 
 const Home: NextPage = () => {
   const calculateTimeLeft = () => {
     let year = new Date().getFullYear();
     const difference = +new Date(year, 3, 8) - +new Date();
-    let timeLeft = {
-      
-    };
-
+    let timeLeft = {};
     if (difference > 0) {
       timeLeft = {
         dias: Math.floor(difference / (1000 * 60 * 60 * 24)),
@@ -27,44 +22,44 @@ const Home: NextPage = () => {
         segundos: Math.floor((difference / 1000) % 60),
       };
     }
-
+    
     return timeLeft;
   };
 
   const [timeLeft, setTimeLeft] = useState<Time>(calculateTimeLeft());
-  const [year] = useState(new Date().getFullYear());
   
-
   useEffect(() => {
     setTimeout(() => {
       setTimeLeft(calculateTimeLeft());
     }, 1000);
   });
 
-  const timerComponents = [<></>];
-
-  Object.keys(timeLeft).forEach((interval) => {
-    if (!timeLeft[interval]) {
-      <span className={styles['timer']}>
-        {0} {interval}{" "}
-      </span>
-    }
-
-    timerComponents.push(
-      <span className={styles['timer']}>
-        {timeLeft[interval]} {interval}{" "}
-      </span>
-    );
-
-  });
   return (
     <>
-      <Head>
-        <title> Fazenda </title>
-      </Head>
       <div className={styles['container']}>
-        <h1 className={styles['titulo']}>Fazenda da Titi</h1>
-        {timerComponents.length ? timerComponents : <span>Time`&apos;`s up!</span>}
+        <a href='https://youtu.be/FW9u6IgKX_M' className={styles['link']}>
+          <h1 className={styles['titulo']}>Fazenda da Titi</h1>
+        </a>
+        {timeLeft.dias!=null && timeLeft.horas!=null && timeLeft.minutos!=null && timeLeft.segundos!=null? 
+          (<>
+            <span className={styles['timer']}>
+              {timeLeft.dias} dias
+            </span>
+            <span className={styles['timer']}>
+              {timeLeft.horas} horas
+            </span>
+            <span className={styles['timer']}>
+              {timeLeft.minutos} minutos
+            </span>
+            <span className={styles['timer']}>
+              {timeLeft.segundos} segundos
+            </span>
+          </>)
+          :
+          (<>
+
+          </>)
+        }
       </div>
     </>
   )

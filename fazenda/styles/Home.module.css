@@ -5,26 +5,26 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-  background: url('/perfeicao.png');
-  background-size: 100vw 100vh;
+  flex-direction: column; 
+  background-image: url('/perfeicao.png');
+  background-size: 100vw 100vh; 
+}
+
+.link{
+  text-decoration: none;
 }
 
 .titulo{
   font-size: 70px;
   color: rgb(223,0,134);
   text-shadow: -5px 4px 5px rgb(255,208,0);
-  
+  z-index: 0;
 }
 
 .timer {
   font-size: 40px;
   color:#dfe4ea;
   text-shadow: -5px 4px 8px #000000, -3px 4px 8px #000000, -1px 4px 8px #000000, 2px 1px 12px #000000;
-}
-
-.animation {
-  z-index: -1;
 }
 
 @media(max-width:320px) {
@@ -35,16 +35,10 @@
 
   .titulo{
     font-size: 55px;
-    
   }
   
   .timer {
     font-size: 30px;
-  }
-
-  .convite {
-    max-height: 275px;
-    max-width: 275px;
   }
 }
 
@@ -56,16 +50,10 @@
 
   .titulo{
     font-size: 60px;
-    
   }
   
   .timer {
     font-size: 35px;
-  }
-
-  .convite {
-    max-height: 300px;
-    max-width: 300px;
   }
 }
 
@@ -77,15 +65,9 @@
   
   .titulo{
     font-size: 70px;
-    
   }
   
   .timer {
     font-size: 40px;
-  }
-
-  .convite {
-    max-height: 250px;
-    max-width: 250px;
   }
 }
