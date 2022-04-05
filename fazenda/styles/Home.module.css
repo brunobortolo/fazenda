@@ -1,17 +1,20 @@
 .container{
   height: 100vh;
   width: 100vw;
+  z-index: 0;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  z-index: 0;
+  background: url('/perfeicao2.png');
+  background-size: 100vw 100vh;
 }
 
 .titulo{
   font-size: 70px;
   color: rgb(223,0,134);
   text-shadow: -5px 4px 5px rgb(255,208,0);
+  
 }
 
 .timer {
@@ -20,26 +23,19 @@
   text-shadow: -5px 4px 8px #000000, -3px 4px 8px #000000, -1px 4px 8px #000000, 2px 1px 12px #000000;
 }
 
-.timer-container {
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
 .animation {
   z-index: -1;
 }
 
 @media(max-width:320px) {
   .container {
-    background: rgb(255,176,233);
+    background-image: url('/celback.jpeg');
+    background-size: 100vw 100vh;
   }
 
   .titulo{
     font-size: 55px;
+    
   }
   
   .timer {
@@ -54,11 +50,13 @@
 
 @media(max-width:400px) {
   .container {
-    background: rgb(255,176,233);
+    background-image: url('/celback.jpeg');
+    background-size: 100vw 100vh;
   }
 
   .titulo{
     font-size: 60px;
+    
   }
   
   .timer {
@@ -73,11 +71,13 @@
 
 @media(max-width:1024px) {
   .container {
-    background: rgb(255,176,233);
+    background-image: url('/celback.jpeg');
+    background-size: 100vw 100vh;
   }
   
   .titulo{
     font-size: 70px;
+    
   }
   
   .timer {
