@@ -5,15 +5,29 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: rgba(255, 250, 101, 0.82);
+  
 }
 
 .titulo{
   font-size: 50px;
+  color: rgb(223,0,134);
+  text-shadow: -5px 4px 5px rgb(255,208,0);
 }
 
 .timer {
   font-size: 25px;
+  color:#dfe4ea;
+  text-shadow: -5px 4px 8px #000000, -3px 4px 8px #000000, -1px 4px 8px #000000, 2px 1px 12px #000000;
+}
+
+.timer-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
 }
 
 .convite {
@@ -21,6 +35,11 @@
   margin-top:20px;
   max-height: 250px;
   max-width: 250px;
+  opacity: 1;
+}
+
+.animation {
+  z-index: -1;
 }
 
 @media(min-width:320px) {
