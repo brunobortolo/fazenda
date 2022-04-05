@@ -75,10 +75,10 @@ const Home: NextPage = () => {
               "color": {
                 "value": ""
               },
-              "image": "url('/fundo.png')",
+              "image": "url('/perfeicao2.png')",
               "position": "",
-              "repeat": "",
-              "size": "cover",
+              "repeat": "no-repeat",
+              "size": "100vw 100vh",
               "opacity": 1
             },
             "backgroundMask": {
@@ -288,7 +288,7 @@ const Home: NextPage = () => {
         
         {timerComponents.length ? timerComponents : <span>Time`&apos;`s up!</span>}
         
-        <img src='/convite.png' alt='convite' className={styles['convite']}></img>
+        
         </div>
       </div>
     </>
