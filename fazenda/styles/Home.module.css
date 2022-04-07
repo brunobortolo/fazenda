@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column; 
-  background-image: url('/perfeicao.png');
+  background-image: url('/perfeicao.avif');
   background-size: 100vw 100vh; 
 }
 
@@ -29,7 +29,7 @@
 
 @media(max-width:320px) {
   .container {
-    background-image: url('/celback.jpeg');
+    background-image: url('/celback.avif');
     background-size: 100vw 100vh;
   }
 
