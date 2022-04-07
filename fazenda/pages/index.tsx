@@ -11,8 +11,7 @@ type Time = {
 
 const Home: NextPage = () => {
   const calculateTimeLeft = () => {
-    let year = new Date().getFullYear();
-    const difference = +new Date(year, 3, 8) - +new Date();
+    const difference = new Date(2022, 3, 8).getTime() - new Date().getTime();
     let timeLeft = {};
     if (difference > 0) {
       timeLeft = {
@@ -26,13 +25,13 @@ const Home: NextPage = () => {
     return timeLeft;
   };
 
-  const [timeLeft, setTimeLeft] = useState<Time>(calculateTimeLeft());
+  const [timeLeft, setTimeLeft] = useState<Time>({dias:0,horas:0,minutos:0,segundos:0});
   
   useEffect(() => {
     setTimeout(() => {
       setTimeLeft(calculateTimeLeft());
-    }, 1000);
-  });
+    }, 500);
+  },[timeLeft]);
 
   return (
     <>
