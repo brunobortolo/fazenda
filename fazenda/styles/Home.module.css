@@ -44,7 +44,7 @@
 
 @media(max-width:400px) {
   .container {
-    background-image: url('/celback.jpeg');
+    background-image: url('/celback.avif');
     background-size: 100vw 100vh;
   }
 
@@ -59,7 +59,7 @@
 
 @media(max-width:1024px) {
   .container {
-    background-image: url('/celback.jpeg');
+    background-image: url('/celback.avif');
     background-size: 100vw 100vh;
   }
   
