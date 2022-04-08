@@ -11,7 +11,7 @@ type Time = {
 
 const Home: NextPage = () => {
   const calculateTimeLeft = () => {
-    const difference = new Date(2022, 3, 8).getTime() - new Date().getTime();
+    const difference = new Date(2022, 3, 8, 12, 0, 0).getTime() - new Date().getTime();
     let timeLeft = {};
     if (difference > 0) {
       timeLeft = {
