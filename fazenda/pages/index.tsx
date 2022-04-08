@@ -57,7 +57,7 @@ const Home: NextPage = () => {
           :
           (<>
             <span className={styles['timer']}>
-              Chegou o Dia!!
+              Chegou a hora!!
             </span>
           </>)
         }
