@@ -1,6 +1,11 @@
-import { useEffect, useState } from 'react'
+//import { useEffect, useState } from 'react'
 import type { NextPage } from 'next'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faHeart,
+} from "@fortawesome/free-solid-svg-icons";
 import styles from '../styles/Home.module.css'
+import Image from 'next/image';
 
 type Time = {
   dias?: number;
@@ -10,6 +15,7 @@ type Time = {
 }
 
 const Home: NextPage = () => {
+  /*
   const calculateTimeLeft = () => {
     const difference = new Date(2022, 3, 8, 12, 0, 0).getTime() - new Date().getTime();
     let timeLeft = {};
@@ -32,14 +38,18 @@ const Home: NextPage = () => {
       setTimeLeft(calculateTimeLeft());
     }, 500);
   },[timeLeft]);
+  */
 
   return (
+    
     <>
       <div className={styles['container']}>
+        
         <a href='https://youtu.be/FW9u6IgKX_M' className={styles['link']}>
           <h1 className={styles['titulo']}>Fazenda da Titi</h1>
         </a>
-        {timeLeft.dias!=null && timeLeft.horas!=null && timeLeft.minutos!=null && timeLeft.segundos!=null? 
+        
+        {/*timeLeft.dias!=null && timeLeft.horas!=null && timeLeft.minutos!=null && timeLeft.segundos!=null? 
           (<>
             <span className={styles['timer']}>
               {timeLeft.dias} dias
@@ -60,9 +70,17 @@ const Home: NextPage = () => {
               Chegou a hora!!
             </span>
           </>)
-        }
+        */}
+
+        
+        <span className={styles['timer']}>
+            Vivemo tá
+            <Image src='/coracao.svg' height='30px' width='30px' color='red'/>
+        </span>
       </div>
     </>
+     
+    
   )
 }
 
