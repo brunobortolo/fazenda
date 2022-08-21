@@ -44,7 +44,7 @@ const Home: NextPage = () => {
   return (
     <div className={styles['container']}>
       
-      <a href='https://youtu.be/FW9u6IgKX_M' className={styles['link']}>
+      <a href='#' className={styles['link']}>
         <h1 className={styles['titulo']} id={styles.titulo}>Fazenda da Titi <b>3.0</b></h1>
       </a>
       
