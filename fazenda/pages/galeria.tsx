@@ -261,6 +261,7 @@ const Home: NextPage = () => {
       <div className={styles.gallery}>
         <motion.img
           layout
+          alt='foto da fazenda'
           src={"fazenda_1.jpg"}
           className={styles.image}
           whileInView={{filter:"grayscale(0%)"}}
@@ -272,6 +273,7 @@ const Home: NextPage = () => {
         </motion.img>
         <motion.img
           layout
+          alt='foto da fazenda'
           src={"fazenda_2.jpg"}
           className={styles.image}
           whileInView={{ filter:"grayscale(0%)" }}
@@ -283,6 +285,7 @@ const Home: NextPage = () => {
         </motion.img>
         <motion.img
           layout
+          alt='foto da fazenda'
           src={"fazenda_3.jpg"}
           className={styles.image}
           whileInView={{ filter:"grayscale(0%)" }}
@@ -294,6 +297,7 @@ const Home: NextPage = () => {
         </motion.img>
         <motion.img
           layout
+          alt='foto da fazenda'
           src={"fazenda_4.jpg"}
           className={styles.image}
           whileInView={{ filter:"grayscale(0%)" }}
@@ -305,6 +309,7 @@ const Home: NextPage = () => {
         </motion.img>
         <motion.img
           layout
+          alt='foto da fazenda'
           src={"fazenda_5.jpg"}
           className={styles.image}
           whileInView={{ filter:"grayscale(0%)" }}
@@ -316,6 +321,7 @@ const Home: NextPage = () => {
         </motion.img>
         <motion.img
           layout
+          alt='foto da fazenda'
           src={"fazenda_6.jpg"}
           className={styles.image}
           whileInView={{ filter:"grayscale(0%)" }}
@@ -327,6 +333,7 @@ const Home: NextPage = () => {
         </motion.img>
         <motion.img
           layout
+          alt='foto da fazenda'
           src={"fazenda_7.jpg"}
           className={styles.image}
           whileInView={{ filter:"grayscale(0%)" }}
@@ -338,6 +345,7 @@ const Home: NextPage = () => {
         </motion.img>
         <motion.img
           layout
+          alt='foto da fazenda'
           src={"fazenda_8.jpg"}
           className={styles.image}
           whileInView={{ filter:"grayscale(0%)" }}
@@ -349,6 +357,7 @@ const Home: NextPage = () => {
         </motion.img>
         <motion.img
           layout
+          alt='foto da fazenda'
           src={"fazenda_9.jpg"}
           className={styles.image}
           whileInView={{ filter:"grayscale(0%)" }}
@@ -360,6 +369,7 @@ const Home: NextPage = () => {
         </motion.img>
         <motion.img
           layout
+          alt='foto da fazenda'
           src={"fazenda_10.jpg"}
           className={styles.image}
           whileInView={{ filter:"grayscale(0%)" }}
@@ -371,6 +381,7 @@ const Home: NextPage = () => {
         </motion.img>
         <motion.img
           layout
+          alt='foto da fazenda'
           src={"fazenda_11.jpg"}
           className={styles.image}
           whileInView={{ filter:"grayscale(0%)" }}
@@ -382,6 +393,7 @@ const Home: NextPage = () => {
         </motion.img>
         <motion.img
           layout
+          alt='foto da fazenda'
           src={"fazenda_12.jpg"}
           className={styles.image}
           whileInView={{ filter:"grayscale(0%)" }}
@@ -393,6 +405,7 @@ const Home: NextPage = () => {
         </motion.img>
         <motion.img
           layout
+          alt='foto da fazenda'
           src={"fazenda_13.jpg"}
           className={styles.image}
           whileInView={{ filter:"grayscale(0%)" }}
@@ -404,6 +417,7 @@ const Home: NextPage = () => {
         </motion.img>
         <motion.img
           layout
+          alt='foto da fazenda'
           src={"fazenda_14.jpg"}
           className={styles.image}
           whileInView={{ filter:"grayscale(0%)" }}
@@ -415,6 +429,7 @@ const Home: NextPage = () => {
         </motion.img>
         <motion.img
           layout
+          alt='foto da fazenda'
           src={"fazenda_15.jpg"}
           className={styles.image}
           whileInView={{ filter:"grayscale(0%)" }}
@@ -426,6 +441,7 @@ const Home: NextPage = () => {
         </motion.img>
         <motion.img
           layout
+          alt='foto da fazenda'
           src={"fazenda_16.jpg"}
           className={styles.image}
           whileInView={{ filter:"grayscale(0%)" }}
@@ -437,6 +453,7 @@ const Home: NextPage = () => {
         </motion.img>
         <motion.img
           layout
+          alt='foto da fazenda'
           src={"fazenda_17.jpg"}
           className={styles.image}
           whileInView={{ filter:"grayscale(0%)" }}
@@ -448,6 +465,7 @@ const Home: NextPage = () => {
         </motion.img>
         <motion.img
           layout
+          alt='foto da fazenda'
           src={"fazenda_18.jpg"}
           className={styles.image}
           whileInView={{ filter:"grayscale(0%)" }}
@@ -459,6 +477,7 @@ const Home: NextPage = () => {
         </motion.img>
         <motion.img
           layout
+          alt='foto da fazenda'
           src={"fazenda_19.jpg"}
           className={styles.image}
           whileInView={{ filter:"grayscale(0%)" }}
@@ -470,6 +489,7 @@ const Home: NextPage = () => {
         </motion.img>
         <motion.img
           layout
+          alt='foto da fazenda'
           src={"fazenda_20.jpg"}
           className={styles.image}
           whileInView={{ filter:"grayscale(0%)" }}
@@ -481,6 +501,7 @@ const Home: NextPage = () => {
         </motion.img>
         <motion.img
           layout
+          alt='foto da fazenda'
           src={"fazenda_21.jpg"}
           className={styles.image}
           whileInView={{ filter:"grayscale(0%)" }}
@@ -492,6 +513,7 @@ const Home: NextPage = () => {
         </motion.img>
         <motion.img
           layout
+          alt='foto da fazenda'
           src={"fazenda_22.jpg"}
           className={styles.image}
           whileInView={{ filter:"grayscale(0%)" }}
@@ -503,6 +525,7 @@ const Home: NextPage = () => {
         </motion.img>
         <motion.img
           layout
+          alt='foto da fazenda'
           src={"fazenda_23.jpg"}
           className={styles.image}
           whileInView={{ filter:"grayscale(0%)" }}
@@ -514,6 +537,7 @@ const Home: NextPage = () => {
         </motion.img>
         <motion.img
           layout
+          alt='foto da fazenda'
           src={"fazenda_24.jpg"}
           className={styles.image}
           whileInView={{ filter:"grayscale(0%)" }}
@@ -525,6 +549,7 @@ const Home: NextPage = () => {
         </motion.img>
         <motion.img
           layout
+          alt='foto da fazenda'
           src={"fazenda_25.jpg"}
           className={styles.image}
           whileInView={{ filter:"grayscale(0%)" }}
@@ -536,6 +561,7 @@ const Home: NextPage = () => {
         </motion.img>
         <motion.img
           layout
+          alt='foto da fazenda'
           src={"fazenda_26.jpg"}
           className={styles.image}
           whileInView={{ filter:"grayscale(0%)" }}
@@ -547,6 +573,7 @@ const Home: NextPage = () => {
         </motion.img>
         <motion.img
           layout
+          alt='foto da fazenda'
           src={"fazenda_27.jpg"}
           className={styles.image}
           whileInView={{ filter:"grayscale(0%)" }}
@@ -558,6 +585,7 @@ const Home: NextPage = () => {
         </motion.img>
         <motion.img
           layout
+          alt='foto da fazenda'
           src={"fazenda_28.jpg"}
           className={styles.image}
           whileInView={{ filter:"grayscale(0%)" }}
@@ -569,6 +597,7 @@ const Home: NextPage = () => {
         </motion.img>
         <motion.img
           layout
+          alt='foto da fazenda'
           src={"fazenda_29.jpg"}
           className={styles.image}
           whileInView={{ filter:"grayscale(0%)" }}
@@ -580,6 +609,7 @@ const Home: NextPage = () => {
         </motion.img>
         <motion.img
           layout
+          alt='foto da fazenda'
           src={"fazenda_30.jpg"}
           className={styles.image}
           whileInView={{ filter:"grayscale(0%)" }}
@@ -591,6 +621,7 @@ const Home: NextPage = () => {
         </motion.img>
         <motion.img
           layout
+          alt='foto da fazenda'
           src={"fazenda_31.jpg"}
           className={styles.image}
           whileInView={{ filter:"grayscale(0%)" }}
