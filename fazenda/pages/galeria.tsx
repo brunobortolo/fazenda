@@ -1,11 +1,13 @@
 import type { NextPage } from 'next'
 import { motion } from 'framer-motion'
 import styles from '../styles/Galeria.module.css'
+import Link from 'next/link'
 
 const Home: NextPage = () => {
 
   return (
     <div className={styles.container}>
+      
       <div className={styles["container-container"]}>
       <div className={styles["container-titulo"]} id={styles["galeria"]}>
       <motion.h1

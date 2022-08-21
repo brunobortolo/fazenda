@@ -6,6 +6,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import styles from '../styles/Home.module.css'
 import Image from 'next/image';
+import Link from 'next/link'
 
 type Time = {
   dias?: number;
@@ -76,7 +77,11 @@ const Home: NextPage = () => {
           <Image src='/coracao.svg' height='30px' width='30px' color='red'/>
       </span>
         */}
-        <a className={styles["redirect"]} href="/galeria">Enquanto isso...</a>
+        <Link href="/galeria">
+          <a className={styles["redirect"]} >
+            Enquanto isso...
+          </a>
+        </Link>
     </div>
   )
 }
