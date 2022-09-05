@@ -47,7 +47,7 @@ const Home: NextPage = () => {
       <a href='#' className={styles['link']}>
         <h1 className={styles['titulo']} id={styles.titulo}>Fazenda da Titi <b>3.0</b></h1>
       </a>
-      
+      {/*
       {timeLeft.dias!=null && timeLeft.horas!=null && timeLeft.minutos!=null && timeLeft.segundos!=null? 
         (<>
           <span className={styles['timer']}>
@@ -69,19 +69,24 @@ const Home: NextPage = () => {
             Chegou a hora!!
           </span>
         </>)}
-      
+        */}
 
-      {/*
+      
       <span className={styles['timer']}>
           Vivemo tá
-          <Image src='/coracao.svg' height='30px' width='30px' color='red'/>
+          <Image src='/coracao-2.svg' style={{marginLeft:4}} height='30px' width='40px' color='red'/>
       </span>
-        */}
-        <Link href="/galeria">
+        
+       {/*} <Link href="/galeria">
           <a className={styles["redirect"]} >
             Enquanto isso...
           </a>
-        </Link>
+      </Link>*/}
+      {/*<Link href="/memorial">
+          <a className={styles["redirect"]} >
+            Algumas memórias
+          </a>
+    </Link>*/}
     </div>
   )
 }
