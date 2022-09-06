@@ -77,11 +77,11 @@ const Home: NextPage = () => {
           <Image src='/coracao-2.svg' style={{marginLeft:4}} height='30px' width='40px' color='red'/>
       </span>
         
-       {/*} <Link href="/galeria">
+        <Link href="/galeria">
           <a className={styles["redirect"]} >
-            Enquanto isso...
+            Album
           </a>
-      </Link>*/}
+      </Link>
       {/*<Link href="/memorial">
           <a className={styles["redirect"]} >
             Algumas memórias
