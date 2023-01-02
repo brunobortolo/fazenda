@@ -15,7 +15,7 @@
   height: 100%;
   top: 0px;
   left: 0px;
-  background-image:url('/pcback.jpeg');
+  background-image:url('/background1.gif');
   filter: grayscale(100%);
   background-size: 100vw 100vh;
   z-index: -1;
@@ -65,7 +65,7 @@
     height: 100%;
     top: 0px;
     left: 0px;
-    background-image:url('/celback.avif');
+    background-image:url('/background1.gif');
     filter: grayscale(100%);
     background-size: 100vw 100vh;
     z-index: -1;
@@ -88,7 +88,7 @@
     height: 100%;
     top: 0px;
     left: 0px;
-    background-image:url('/celback.avif');
+    background-image:url('/background1.gif');
     filter: grayscale(100%);
     background-size: 100vw 100vh;
     z-index: -1;
@@ -111,7 +111,7 @@
     height: 100%;
     top: 0px;
     left: 0px;
-    background-image:url('/celback.avif');
+    background-image:url('/background1.gif');
     filter: grayscale(100%);
     background-size: 100vw 100vh;
     z-index: -1;

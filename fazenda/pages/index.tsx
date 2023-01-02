@@ -18,7 +18,7 @@ type Time = {
 const Home: NextPage = () => {
   
   const calculateTimeLeft = () => {
-    const difference = new Date(2023, 1, 6, 14, 0, 0).getTime() - new Date().getTime();
+    const difference = new Date(2023, 0, 6, 14, 0, 0).getTime() - new Date().getTime();
     let timeLeft = {};
     if (difference > 0) {
       timeLeft = {
@@ -42,10 +42,10 @@ const Home: NextPage = () => {
   
 
   return (
+
     <div className={styles['container']}>
-      
       <a href='#' className={styles['link']}>
-        <h1 className={styles['titulo']} id={styles.titulo}>Fazenda da Titi <b>3.0</b></h1>
+        <h1 className={styles['titulo']} id={styles.titulo}>Fazenda da Titi <b>4.0</b></h1>
       </a>
       
       {timeLeft.dias!=null && timeLeft.horas!=null && timeLeft.minutos!=null && timeLeft.segundos!=null? 
@@ -78,12 +78,13 @@ const Home: NextPage = () => {
           <Image src='/coracao-2.svg' style={{marginLeft:4}} height='30px' width='40px' color='red'/>
       </span>
       */}
-        
+      {/*}  
         <Link href="/galeria">
           <a className={styles["redirect"]} >
             Album
           </a>
       </Link>
+      /*}
       {/*<Link href="/memorial">
           <a className={styles["redirect"]} >
             Algumas memórias
