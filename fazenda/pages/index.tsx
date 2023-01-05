@@ -48,6 +48,7 @@ const Home: NextPage = () => {
         <h1 className={styles['titulo']} id={styles.titulo}>Fazenda da Titi <b>4.0</b></h1>
       </a>
       
+      {/*
       {timeLeft.dias!=null && timeLeft.horas!=null && timeLeft.minutos!=null && timeLeft.segundos!=null? 
         (<>
           <span className={styles['timer']}>
@@ -69,8 +70,31 @@ const Home: NextPage = () => {
             Chegou a hora!!
           </span>
         </>)}
-        
-
+        */}
+        {timeLeft.dias!=null && timeLeft.horas!=null && timeLeft.minutos!=null && timeLeft.segundos!=null? 
+        (<>
+          <span className={styles['timer']}>
+            0 dias
+          </span>
+          <span className={styles['timer']}>
+            18 horas
+          </span>
+          <span className={styles['timer']}>
+            48 minutos
+          </span>
+          <span className={styles['timer']}>
+            18 segundos
+          </span>
+        </>)
+        :
+        (<>
+          <span className={styles['timer']}>
+            Chegou a hora!!
+          </span>
+        </>)}
+        <h3 className={styles['adiada']}>
+            Adiada
+        </h3>
       
       {/*
       <span className={styles['timer']}>

@@ -39,6 +39,18 @@
 .timer {
   font-size: 40px;
   text-align: center;
+  text-decoration: line-through;
+  color:#2b2626;
+  text-shadow: -2px 2px 4px #544f4f, -3px 4px 8px #544f4f, -1px 4px 8px #544f4f, 2px 1px 12px #544f4f;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+}
+
+.adiada {
+  font-size: 50px;
+  text-align: center;
   color:#EA2027;
   text-shadow: -2px 2px 4px #ff7675, -3px 4px 8px #ff7675, -1px 4px 8px #ff7675, 2px 1px 12px #ff7675;
   display:flex;
